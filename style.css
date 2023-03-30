@@ -76,4 +76,57 @@ form {
 .number-range__button.is-end {
     right: 0;
 }
+.col.p-2.m-2.text-center {
+    display: flex !important;
+    flex-direction: column !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding: 24px !important;
+}
+.birthday-options {
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    width: 100%;
+}
+.g-1 {
+    margin-right: -0.5rem;
+    margin-left: -0.5rem;
+}
+.text-1 {
+    font-size: 16px;
+}
+.select {
+    width: 100%;
+    height: unset;
+    border: 1px solid #0054a6;
+    border-radius: 2rem;
+    background-color: #fff;
+    background-image: url(/multimedia/icon-arrow-down-blue.svg) !important;
+    background-size: 7px 4px !important;
+    background-repeat: no-repeat !important;
+    background-position: center right 1rem !important;
+    padding: 0.5rem 2rem 0.5rem 1rem;
+    color: #0054a6;
+    font-size: 14px;
+    line-height: 1em;
+}
+.justify-content-center {
+    justify-content: center;
+}
+.align-items-center {
+    align-items: center;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -1rem;
+    margin-left: -1rem;
+}
+.text-blue {
+    color: #005eb8 !important;
+}
+.col-12 {
 
+    -ms-flex: 0 0 100%;
+    flex: 0 0 22% !important;
+}
