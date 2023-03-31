@@ -37,13 +37,16 @@ html, body {
     z-index: 9;
     background-color: #fff;
 }
-form {
-    width: 80% !important;
-    padding: 20px;
-}
-.number-range__slider {
-    position: relative;
-    z-index: 1;
+.button-array__button {
+    display: block;
+    width: 100%;
+    background: #fff;
+    color: #0054a6;
+    border: 1px solid #0054a6;
+    border-radius: 3rem;
+    padding: 0.5rem 1rem;
+    font-size: 14px;
+    cursor: pointer;
 }
 .number-range__button {
     position: absolute;
@@ -76,24 +79,34 @@ form {
 .number-range__button.is-end {
     right: 0;
 }
-.col.p-2.m-2.text-center {
-    display: flex !important;
-    flex-direction: column !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    padding: 24px !important;
+.number-range__button {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    background: #0054a6;
+    color: #fff;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.25rem;
+    width: 2.25rem;
+    border-radius: 50%;
+    border: 0;
+    cursor: pointer;
+    line-height: 1em;
 }
-.birthday-options {
-    border-top-right-radius: 0.5rem;
-    border-top-left-radius: 0.5rem;
-    width: 100%;
+.number-range {
+    position: relative;
+    padding-left: 36px;
+    height: 36px;
 }
-.g-1 {
-    margin-right: -0.5rem;
-    margin-left: -0.5rem;
+.number-range__slider {
+    position: relative;
+    z-index: 1;
 }
-.text-1 {
-    font-size: 16px;
+label {
+    cursor: pointer;
 }
 .select {
     width: 100%;
@@ -101,7 +114,7 @@ form {
     border: 1px solid #0054a6;
     border-radius: 2rem;
     background-color: #fff;
-    background-image: url(/multimedia/icon-arrow-down-blue.svg) !important;
+    background-image: url(https://www.compassion.com/multimedia/icon-arrow-down-blue.svg) !important;
     background-size: 7px 4px !important;
     background-repeat: no-repeat !important;
     background-position: center right 1rem !important;
@@ -110,23 +123,131 @@ form {
     font-size: 14px;
     line-height: 1em;
 }
-.justify-content-center {
-    justify-content: center;
+
+.m-b-2 {
+    margin-bottom: 0.5rem;
 }
-.align-items-center {
-    align-items: center;
+.bg-blue100 {
+    padding: 0;
+    margin: 0;
+}
+.birthday-options {
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    width: 100%;
 }
 .row {
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: -1rem;
-    margin-left: -1rem;
+    display: flex !important;
+    flex-wrap: wrap !important;
 }
 .text-blue {
     color: #005eb8 !important;
 }
-.col-12 {
-
-    -ms-flex: 0 0 100%;
-    flex: 0 0 22% !important;
+.col-sm-none {
+    flex: none;
+    width: unset;
+}
+.g-1>* {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+input[type=button], input[type=email], input[type=number], input[type=password], input[type=submit], input[type=tel], input[type=text], select, textarea {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border-radius: 0;
+    font-family: Montserrat,Helvetica,Arial,sans-serif;
+}
+.position-relative {
+    position: relative;
+}
+.bg-teal {
+    background-color: #0086BF;
+}
+.position-absolute {
+    position: absolute;
+}
+.top-0 {
+    top: 0rem;
+}
+.z-10 {
+    z-index: 10;
+}
+.p-2 {
+    padding: 0.5rem;
+}
+.text-center {
+    text-align: center;
+}
+.text-white {
+    color: #fff !important;
+}
+.box-shadow-2 {
+    box-shadow: 0 3px 12px rgba(0,0,0,0.15);
+}
+.col-md-4 {
+    flex: none;
+    width: calc((4 / 12) * 100%);
+}
+.rounded-tl-2 {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+.z-0 {
+    z-index: 0;
+}
+.bg-gray200 {
+    background-color: #ccc;
+}
+.rounded-tl-2 {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+.aspect-square {
+    aspect-ratio: 1 / 1;
+}
+.new {
+    width: 100%;
+    object-fit: cover;
+}
+.b-c-gray300 {
+    border-color: #D8D8D8;
+}
+.bg-blue {
+    background-color: #005eb8;
+}
+.rounded-1 {
+    border-radius: 0.25rem;
+}
+.p-tb-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+.p-rl-4 {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.m-t-4 {
+    margin-top: 1rem;
+}
+.text-gray {
+    color: #425563 !important;
+}
+.text-none {
+    text-decoration: none !important;
+}
+.text-none {
+    text-transform: none !important;
+}
+.text-3 {
+    font-size: 1.25rem;
+}
+.text-700 {
+    font-weight: 700;
+}
+strong {
+    font-weight: inherit;
+    font-weight: bolder;
+}
+.text-uppercase {
+    text-transform: uppercase;
 }
