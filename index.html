@@ -17,150 +17,263 @@
                 your love will ignite a lifetime of hope. Sponsor a child today for only $38 per month.</p>
         </div>
         <div class="container-fluid nextsection">
-        <form>
-            <div class="row w-100">
-              <div class="col p-2 m-2 text-center">
-                <div>
-                    <div class="text-center m-b-2 text-1 mb-4">I'm looking for a:</div>
-                    <div class="button-array row">
-                        <div class="col">
-                            <button class="button-array__button btn" value="Male" aria-label="Search for a boy">Boy</button>
-                        </div>
-                        <div class="col">
-                            <button class="button-array__button btn" value="Female" aria-label="Search for a girl">Girl</button>
-                        </div>
-                        <div class="col">
-                            <button class="button-array__button btn" value="" aria-label="Search for a boy or girl" selected="">Either</button>
-                        </div>
-                    </div>
-                </div>
-              </div>
-              <div class="col p-2 m-2 text-center">
-                    <div class="text-center">
-                        <div class="m-b-2 text-1"><label for="AgeMinFilter">Between the ages of:</label></div>
-                        <div class="number-range" min="1" max="22">
-                            <input type="hidden" class="number-range__min" value="1">
-                            <input type="hidden" class="number-range__max" value="22">
-                            <div class="number-range__slider" style="margin-left:-36px;">
-                                <button class="number-range__button is-start" id="AgeMinFilter">1</button>
-                                <button class="number-range__button is-end">22</button>
-                            </div>
-                        </div>
-                    </div>
-              </div>
-              <div class="col p-2 m-2 text-center">
-                        <div class="text-center m-b-2 text-1">
-                            <label for="CountryFilter">Who comes from:</label>
-                        </div>
-                        <select class="select" id="CountryFilter">
-                            <option value="">All Countries</option>
-                                <option value="Bangladesh">Bangladesh</option>
-                                <option value="Bolivia">Bolivia</option>
-                                <option value="Brazil">Brazil</option>
-                                <option value="Burkina Faso">Burkina Faso</option>
-                                <option value="Colombia">Colombia</option>
-                                <option value="Dominican Republic">Dominican Republic</option>
-                                <option value="Ecuador">Ecuador</option>
-                                <option value="El Salvador">El Salvador</option>
-                                <option value="Ethiopia">Ethiopia</option>
-                                <option value="Ghana">Ghana</option>
-                                <option value="Guatemala">Guatemala</option>
-                                <option value="Haiti">Haiti</option>
-                                <option value="Honduras">Honduras</option>
-                                <option value="Indonesia">Indonesia</option>
-                                <option value="Kenya">Kenya</option>
-                                <option value="Mexico">Mexico</option>
-                                <option value="Nicaragua">Nicaragua</option>
-                                <option value="Peru">Peru</option>
-                                <option value="Philippines">Philippines</option>
-                                <option value="Rwanda">Rwanda</option>
-                                <option value="Sri Lanka">Sri Lanka</option>
-                                <option value="Tanzania">Tanzania</option>
-                                <option value="Thailand">Thailand</option>
-                                <option value="Togo">Togo</option>
-                                <option value="Uganda">Uganda</option>
-                        </select>
-                    </div>
-                    <div class="birthday-options bg-blue100 p-3 p-md-tb-5 p-md-rl-6 order-0 order-md-1">
-                        <div class="row justify-content-center align-items-center g-1">
-                            <label class="col-12 col-sm-none text-blue d-sm-flex align-items-center text-center m-b-2 m-sm-b-0" for="BirthMonthFilter">
-                                <span class="text-1 text-center">Search by birthday:</span>
-                            </label>
-                            <div class="col-none">
-                                <select class="select" id="BirthMonthFilter" aria-label="Birth Month">
-                                    <option value="">Month</option>
-                                    <option value="1">January</option>
-                                    <option value="2">February</option>
-                                    <option value="3">March</option>
-                                    <option value="4">April</option>
-                                    <option value="5">May</option>
-                                    <option value="6">June</option>
-                                    <option value="7">July</option>
-                                    <option value="8">August</option>
-                                    <option value="9">September</option>
-                                    <option value="10">October</option>
-                                    <option value="11">November</option>
-                                    <option value="12">December</option>
-                                </select>
-                            </div>
-                            <div class="col-none">
-                                <select class="select" id="BirthDayFilter" aria-label="Birth Day">
-                                    <option value="">Day</option>
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
-                                        <option value="3">3</option>
-                                        <option value="4">4</option>
-                                        <option value="5">5</option>
-                                        <option value="6">6</option>
-                                        <option value="7">7</option>
-                                        <option value="8">8</option>
-                                        <option value="9">9</option>
-                                        <option value="10">10</option>
-                                        <option value="11">11</option>
-                                        <option value="12">12</option>
-                                        <option value="13">13</option>
-                                        <option value="14">14</option>
-                                        <option value="15">15</option>
-                                        <option value="16">16</option>
-                                        <option value="17">17</option>
-                                        <option value="18">18</option>
-                                        <option value="19">19</option>
-                                        <option value="20">20</option>
-                                        <option value="21">21</option>
-                                        <option value="22">22</option>
-                                        <option value="23">23</option>
-                                        <option value="24">24</option>
-                                        <option value="25">25</option>
-                                        <option value="26">26</option>
-                                        <option value="27">27</option>
-                                        <option value="28">28</option>
-                                        <option value="29">29</option>
-                                        <option value="30">30</option>
-                                        <option value="31">31</option>
-                                </select>
-                            </div>
-                        </div>
-                    </div>
-              </div>
-      
-          </form>
-        </div>
-        
-        <div class="container-fluid">
             <div class="container">
-                <div class="row m-5">
-                  <div class="col-sm shadow p-3 mb-5 bg-light rounded">
-                    <img src="https://media.ci.org/t_thumb/f_auto,q_auto,w_300/v1646649920/ChildPhotos/Published/09258497_lzqyov.jpg" alt="">
-                  </div>
-                  <div class="col-sm shadow p-3 mb-5 bg-light  rounded">
-                    <img src="https://media.ci.org/t_thumb/f_auto,q_auto,w_300/v1646649920/ChildPhotos/Published/09258497_lzqyov.jpg" alt="">
-                  </div>
-                  <div class="col-sm shadow p-3 mb-5 bg-light  rounded">
-                    <img src="https://media.ci.org/t_thumb/f_auto,q_auto,w_300/v1646649920/ChildPhotos/Published/09258497_lzqyov.jpg" alt="">
-                  </div>
-                </div>
-              </div>
+                <form id="contact-form" method="post" action="contact.php" role="form">
+                    <div class="controls">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="form-group">
+                                    <div class="text-center m-b-2 text-1">I'm looking for a:</div>
+                                    <div class="button-array row m-rl-1">
+                                        <div class="col p-rl-1">
+                                            <button class="button-array__button" value="Male" aria-label="Search for a boy">Boy</button>
+                                        </div>
+                                        <div class="col p-rl-1">
+                                            <button class="button-array__button" value="Female" aria-label="Search for a girl">Girl</button>
+                                        </div>
+                                        <div class="col p-rl-1 m-md-t-3 m-lg-t-0">
+                                            <button class="button-array__button" value="" aria-label="Search for a boy or girl" selected="selected">Either</button>
+                                        </div>
+                                    </div>
+                                  
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="form-group">
+                                    <div class="text-center">
+                                        <div class="m-b-2 text-1"><label for="AgeMinFilter">Between the ages of:</label></div>
+                                        <div class="number-range" min="1" max="22">
+                                            <input type="hidden" class="number-range__min" value="1">
+                                            <input type="hidden" class="number-range__max" value="22">
+                                            <div class="number-range__slider" style="margin-left:-36px;">
+                                                <button class="number-range__button is-start" id="AgeMinFilter">1</button>
+                                                <button class="number-range__button is-end">22</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="form-group">
+                                    <div>
+                                        <div class="text-center m-b-2 text-1">
+                                            <label for="CountryFilter">Who comes from:</label>
+                                        </div>
+                                        <select class="select" id="CountryFilter">
+                                            <option value="">All Countries</option>
+                                                <option value="Bangladesh">Bangladesh</option>
+                                                <option value="Bolivia">Bolivia</option>
+                                                <option value="Brazil">Brazil</option>
+                                                <option value="Burkina Faso">Burkina Faso</option>
+                                                <option value="Colombia">Colombia</option>
+                                                <option value="Dominican Republic">Dominican Republic</option>
+                                                <option value="Ecuador">Ecuador</option>
+                                                <option value="El Salvador">El Salvador</option>
+                                                <option value="Ethiopia">Ethiopia</option>
+                                                <option value="Ghana">Ghana</option>
+                                                <option value="Guatemala">Guatemala</option>
+                                                <option value="Haiti">Haiti</option>
+                                                <option value="Honduras">Honduras</option>
+                                                <option value="Indonesia">Indonesia</option>
+                                                <option value="Kenya">Kenya</option>
+                                                <option value="Mexico">Mexico</option>
+                                                <option value="Nicaragua">Nicaragua</option>
+                                                <option value="Peru">Peru</option>
+                                                <option value="Philippines">Philippines</option>
+                                                <option value="Rwanda">Rwanda</option>
+                                                <option value="Sri Lanka">Sri Lanka</option>
+                                                <option value="Tanzania">Tanzania</option>
+                                                <option value="Thailand">Thailand</option>
+                                                <option value="Togo">Togo</option>
+                                                <option value="Uganda">Uganda</option>
+                                        </select>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="birthday-options bg-blue100 p-3 p-md-tb-5 p-md-rl-6 order-0 order-md-1">
+                                <div class="row justify-content-center align-items-center g-1">
+                                    <label class="col-12 col-sm-none text-blue d-sm-flex align-items-center text-center m-b-2 m-sm-b-0" for="BirthMonthFilter">
+                                        <div class="icon-circle m-r-2 d-none d-md-flex">
+                                            
+                                        </div>
+                                        <span class="text-1">Search by birthday:</span>
+                                    </label>
+                                    <div class="col-none">
+                                        <select class="select" id="BirthMonthFilter" aria-label="Birth Month">
+                                            <option value="">Month</option>
+                                            <option value="1">January</option>
+                                            <option value="2">February</option>
+                                            <option value="3">March</option>
+                                            <option value="4">April</option>
+                                            <option value="5">May</option>
+                                            <option value="6">June</option>
+                                            <option value="7">July</option>
+                                            <option value="8">August</option>
+                                            <option value="9">September</option>
+                                            <option value="10">October</option>
+                                            <option value="11">November</option>
+                                            <option value="12">December</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-none">
+                                        <select class="select" id="BirthDayFilter" aria-label="Birth Day">
+                                            <option value="">Day</option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                                <option value="6">6</option>
+                                                <option value="7">7</option>
+                                                <option value="8">8</option>
+                                                <option value="9">9</option>
+                                                <option value="10">10</option>
+                                                <option value="11">11</option>
+                                                <option value="12">12</option>
+                                                <option value="13">13</option>
+                                                <option value="14">14</option>
+                                                <option value="15">15</option>
+                                                <option value="16">16</option>
+                                                <option value="17">17</option>
+                                                <option value="18">18</option>
+                                                <option value="19">19</option>
+                                                <option value="20">20</option>
+                                                <option value="21">21</option>
+                                                <option value="22">22</option>
+                                                <option value="23">23</option>
+                                                <option value="24">24</option>
+                                                <option value="25">25</option>
+                                                <option value="26">26</option>
+                                                <option value="27">27</option>
+                                                <option value="28">28</option>
+                                                <option value="29">29</option>
+                                                <option value="30">30</option>
+                                                <option value="31">31</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+                   
+                    </div>
+                </form>
+            </div>
         </div>
+       <div class="container">
+        <div class="container-lg p-tb-5">
+            <div class="row g-1 child-results">
+                <div class="child-card col-12 col-xs-6 col-md-4 m-tb-2">
+                    <div class="position-relative box-shadow-2 rounded-2 text-0 text-md-1 text-center">
+                        
+                            <div class="child-card__banner position-absolute top-0 left-0 z-10 w-100 bg-teal text-white p-2 rounded-tr-2 rounded-tl-2 text-700 text-center">
+                                Waiting 379 days
+                            </div>
+                        
+                        <a class="child-card__image position-realtive z-0 aspect-square rounded-tr-2 rounded-tl-2 bg-gray200" href="/sponsor_a_child/child-biography.htm?gid=09740630&amp;source=" title="An unsponsored boy named Kaio from Brazil who has waited 379 days for a sponsor">
+                            <img class="new" src="https://media.ci.org/t_thumb/f_auto,q_auto,w_300/v1644952578/ChildPhotos/Published/09740630_horiyp.jpg" alt="image of Kaio">
+                        </a>
+                        <div class="child-card__info p-3 p-md-4">
+                            <div class="child-card__name text-3 text-700 m-b-3">
+                                <a class="text-gray text-none" href="/sponsor_a_child/child-biography.htm?gid=09740630&amp;source=" title="An unsponsored boy named Kaio from Brazil who has waited 379 days for a sponsor">
+                                    Kaio
+                                </a>
+                            </div>
+                            <div class="child-card__age p-1 b-w-0 b-w-b-1 b-c-gray300 b-s-solid">
+                                <strong class="text-uppercase">Age:</strong>
+                                7
+                            </div>
+                            <div class="child-card__birthday p-1 b-w-0 b-w-b-1 b-c-gray300 b-s-solid">
+                                <strong class="d-block d-lg-inline text-uppercase">Birthday:</strong>
+                                June 1, 2015
+                            </div>
+                            <div class="child-card__location p-1 b-w-0 b-w-b-1 b-c-gray300 b-s-solid">
+                                <strong class="d-block d-lg-inline text-uppercase">Location:</strong>
+                                Brazil
+                            </div>
+                            <a class="child-card__button d-block w-100 bg-blue text-white text-center m-t-4 p-tb-3 p-rl-4 rounded-1 text-0 text-700 text-none" href="/sponsor_a_child/child-biography.htm?gid=09740630&amp;source=" title="An unsponsored boy named Kaio from Brazil who has waited 379 days for a sponsor">
+                                Choose Me
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="child-card col-12 col-xs-6 col-md-4 m-tb-2">
+                    <div class="position-relative box-shadow-2 rounded-2 text-0 text-md-1 text-center">
+                        
+                            <div class="child-card__banner position-absolute top-0 left-0 z-10 w-100 bg-teal text-white p-2 rounded-tr-2 rounded-tl-2 text-700 text-center">
+                                Waiting 379 days
+                            </div>
+                        
+                        <a class="child-card__image position-realtive z-0 aspect-square rounded-tr-2 rounded-tl-2 bg-gray200" href="/sponsor_a_child/child-biography.htm?gid=09740630&amp;source=" title="An unsponsored boy named Kaio from Brazil who has waited 379 days for a sponsor">
+                            <img class="new" src="https://media.ci.org/t_thumb/f_auto,q_auto,w_300/v1644952578/ChildPhotos/Published/09740630_horiyp.jpg" alt="image of Kaio">
+                        </a>
+                        <div class="child-card__info p-3 p-md-4">
+                            <div class="child-card__name text-3 text-700 m-b-3">
+                                <a class="text-gray text-none" href="/sponsor_a_child/child-biography.htm?gid=09740630&amp;source=" title="An unsponsored boy named Kaio from Brazil who has waited 379 days for a sponsor">
+                                    Kaio
+                                </a>
+                            </div>
+                            <div class="child-card__age p-1 b-w-0 b-w-b-1 b-c-gray300 b-s-solid">
+                                <strong class="text-uppercase">Age:</strong>
+                                7
+                            </div>
+                            <div class="child-card__birthday p-1 b-w-0 b-w-b-1 b-c-gray300 b-s-solid">
+                                <strong class="d-block d-lg-inline text-uppercase">Birthday:</strong>
+                                June 1, 2015
+                            </div>
+                            <div class="child-card__location p-1 b-w-0 b-w-b-1 b-c-gray300 b-s-solid">
+                                <strong class="d-block d-lg-inline text-uppercase">Location:</strong>
+                                Brazil
+                            </div>
+                            <a class="child-card__button d-block w-100 bg-blue text-white text-center m-t-4 p-tb-3 p-rl-4 rounded-1 text-0 text-700 text-none" href="/sponsor_a_child/child-biography.htm?gid=09740630&amp;source=" title="An unsponsored boy named Kaio from Brazil who has waited 379 days for a sponsor">
+                                Choose Me
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="child-card col-12 col-xs-6 col-md-4 m-tb-2">
+                    <div class="position-relative box-shadow-2 rounded-2 text-0 text-md-1 text-center">
+                        
+                            <div class="child-card__banner position-absolute top-0 left-0 z-10 w-100 bg-teal text-white p-2 rounded-tr-2 rounded-tl-2 text-700 text-center">
+                                Waiting 379 days
+                            </div>
+                        
+                        <a class="child-card__image position-realtive z-0 aspect-square rounded-tr-2 rounded-tl-2 bg-gray200" href="/sponsor_a_child/child-biography.htm?gid=09740630&amp;source=" title="An unsponsored boy named Kaio from Brazil who has waited 379 days for a sponsor">
+                            <img class="new" src="https://media.ci.org/t_thumb/f_auto,q_auto,w_300/v1644952578/ChildPhotos/Published/09740630_horiyp.jpg" alt="image of Kaio">
+                        </a>
+                        <div class="child-card__info p-3 p-md-4">
+                            <div class="child-card__name text-3 text-700 m-b-3">
+                                <a class="text-gray text-none" href="/sponsor_a_child/child-biography.htm?gid=09740630&amp;source=" title="An unsponsored boy named Kaio from Brazil who has waited 379 days for a sponsor">
+                                    Kaio
+                                </a>
+                            </div>
+                            <div class="child-card__age p-1 b-w-0 b-w-b-1 b-c-gray300 b-s-solid">
+                                <strong class="text-uppercase">Age:</strong>
+                                7
+                            </div>
+                            <div class="child-card__birthday p-1 b-w-0 b-w-b-1 b-c-gray300 b-s-solid">
+                                <strong class="d-block d-lg-inline text-uppercase">Birthday:</strong>
+                                June 1, 2015
+                            </div>
+                            <div class="child-card__location p-1 b-w-0 b-w-b-1 b-c-gray300 b-s-solid">
+                                <strong class="d-block d-lg-inline text-uppercase">Location:</strong>
+                                Brazil
+                            </div>
+                            <a class="child-card__button d-block w-100 bg-blue text-white text-center m-t-4 p-tb-3 p-rl-4 rounded-1 text-0 text-700 text-none" href="/sponsor_a_child/child-biography.htm?gid=09740630&amp;source=" title="An unsponsored boy named Kaio from Brazil who has waited 379 days for a sponsor">
+                                Choose Me
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          
+        </div>
+    </div> 
     </div>
     
 
