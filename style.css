@@ -630,12 +630,31 @@ input {
     .nav-tabs .nav-item>.nav-link {
         margin-bottom: 5px;
     }
+    .main {
+        width: 90% !important;
+        min-height: 120vh !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #page1 {
+        width: 100%;
+        height: 100vh;
+        background-color: #005eb8;
+        background-image: url(./compassion-crypto-bg.jpeg);
+        background-size: cover;
+    }
+    h3.text-3 {
+        color: #fff;
+        font-size: 12px !important;
+    }
+    img.flex-section-icon.m-b-1 {
+    width: fit-content;
+    max-width: 50%;
 }
-
-
-
-
-
+}
+.feature {
+    position: relative;
+}
 
 
 
