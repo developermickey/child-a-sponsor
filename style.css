@@ -651,6 +651,15 @@ input {
     width: fit-content;
     max-width: 50%;
 }
+.nextsection {
+    width: 90%;
+    height: 465px !important;
+
+}
+.col-md-4 {
+    flex: none;
+    width: calc((12 / 12) * 100%);
+}
 }
 .feature {
     position: relative;
